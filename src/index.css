@@ -11,3 +11,12 @@ body {
   background-color: #f0f2f5;
   overflow: hidden;
 }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New" monospace;
+}
+.app-body {
+  display: flex;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
