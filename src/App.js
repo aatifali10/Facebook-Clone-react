@@ -1,6 +1,8 @@
 import "./index.css";
 import Header from "./component/header/Header";
 import LeftSideBar from "./component/leftside/LeftSideBar";
+import Feed from "./component/feed/Feed";
+import RightSidebar from "./component/rightsidebar/RightSidebar";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       </div>
       <div className="app-body">
         <LeftSideBar />
+        <Feed />
+        <RightSidebar />
       </div>
     </>
   );

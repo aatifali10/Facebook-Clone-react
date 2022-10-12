@@ -11,7 +11,10 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const LeftSideBar = () => {
   return (
     <div className="sidebar">
-      <SiderbarOption src={Avatar} title="Aatif Ali" />
+      <SiderbarOption
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrccHHFIkFQ19xnGdkQSaMzm4i3t42UlH0jj2jrR1VRxZPknimoh54VMLYOMvn_y7uUg&usqp=CAU"
+        title="Aatif Ali"
+      />
       <SiderbarOption
         src="https://www.facebook.com/rsrc.php/v3/yR/r/tInzwsw2pVX.png"
         title="Covid 19 Information center"
