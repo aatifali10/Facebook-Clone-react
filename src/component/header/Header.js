@@ -12,6 +12,7 @@ import ForumIcon from "@mui/icons-material/Forum";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { IconButton } from "@mui/material";
+import Afridi from "../../images/Shahid.jpg";
 
 const Header = () => {
   return (
@@ -39,7 +40,7 @@ const Header = () => {
       </div>
       <div className="header-right">
         <div className="header-info">
-          <Avatar />
+          <Avatar src={Afridi} />
           <h5>Aatif Ali</h5>
         </div>
         <IconButton>

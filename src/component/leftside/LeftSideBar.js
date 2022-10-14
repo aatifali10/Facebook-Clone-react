@@ -1,4 +1,4 @@
-import { Avatar } from "@mui/material";
+// import { Avatar } from "@mui/material";
 import React from "react";
 import "./leftsidebar.css";
 import Friends from "../../images/Friends.png";
@@ -7,14 +7,12 @@ import watch from "../../images/watch.png";
 import Events from "../../images/Event.webp";
 import SiderbarOption from "./SiderbarOption";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Afridi from "../../images/Shahid.jpg";
 
 const LeftSideBar = () => {
   return (
     <div className="sidebar">
-      <SiderbarOption
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrccHHFIkFQ19xnGdkQSaMzm4i3t42UlH0jj2jrR1VRxZPknimoh54VMLYOMvn_y7uUg&usqp=CAU"
-        title="Aatif Ali"
-      />
+      <SiderbarOption src={Afridi} title="Aatif Ali" />
       <SiderbarOption
         src="https://www.facebook.com/rsrc.php/v3/yR/r/tInzwsw2pVX.png"
         title="Covid 19 Information center"
