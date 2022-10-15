@@ -9,7 +9,7 @@ function App() {
   const user = null;
   return (
     <>
-      {user ? (
+      {!user ? (
         <Login />
       ) : (
         <div className="App">
