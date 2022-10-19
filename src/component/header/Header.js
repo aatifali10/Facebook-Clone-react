@@ -13,8 +13,10 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { IconButton } from "@mui/material";
 import Afridi from "../../images/Shahid.jpg";
+// import { useStateValue } from "../../StateProvider";
 
 const Header = () => {
+  // const [{ user }, dispatch] = useStateValue();
   return (
     <div className="header">
       <div className="header-left">

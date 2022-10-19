@@ -7,12 +7,14 @@ import watch from "../../images/watch.png";
 import Events from "../../images/Event.webp";
 import SiderbarOption from "./SiderbarOption";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Afridi from "../../images/Shahid.jpg";
+import Shahid from "../../images/Shahid.jpg";
+// import { useStateValue } from "../../StateProvider";
 
 const LeftSideBar = () => {
+  // const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SiderbarOption src={Afridi} title="Aatif Ali" />
+      <SiderbarOption src={Shahid} title="Aatif Ali" />
       <SiderbarOption
         src="https://www.facebook.com/rsrc.php/v3/yR/r/tInzwsw2pVX.png"
         title="Covid 19 Information center"
